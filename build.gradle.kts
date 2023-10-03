@@ -16,7 +16,8 @@ repositories {
 }
 
 dependencies {
-	testImplementation("org.springframework.boot:spring-boot-starter-data-cassandra:2.7.16")
+	implementation("org.springframework.boot:spring-boot-starter-data-cassandra")
+	implementation("io.jsonwebtoken:jjwt:0.9.1")
 	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
